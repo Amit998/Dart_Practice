@@ -99,7 +99,8 @@ class Widget1 extends StatelessWidget {
       builder: (context, snapshot) {
         return Text(
             snapshot.data != null ? snapshot.data.toString() : 'no Data',
-            style: TextStyle(fontSize: 20));
+            style: TextStyle(fontSize: 20)
+        );
       },
     );
   }
